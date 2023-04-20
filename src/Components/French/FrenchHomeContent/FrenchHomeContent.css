@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+.first-title {
+  text-align: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Basic', sans-serif;
+  font-size: 22px;
+  margin-top: 150px;
+  text-shadow: 0px 0px 20px rgb(141, 17, 190);
+}
+
+.logo {
+  width: 180px;
+  margin-left: 20%;
+}
