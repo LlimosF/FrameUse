@@ -11,9 +11,13 @@
   text-shadow: 0px 0px 20px rgb(56, 56, 56);
 }
 
-.logo {
-  width: 180px;
-  margin-left: 20%;
+.frameUse {
+  border-radius: 100%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 20px rgb(58, 58, 58);
 }
 
 .card {

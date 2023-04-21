@@ -1,42 +1,41 @@
 import React from "react";
-import "../FrenchHomeContent/FrenchHomeContent.css";
 import BackgroundFixed from "../../BackgroundFixed/BackgroundFixed";
 import { Link } from "react-router-dom";
-import LogoFU from "../../../media/FrameUse.png"
+import LogoFU from "../../../media/FrameUse.png";
 
-export default function FrenchHomeContent () {
+export default function EnglishHomeContent () {
   return (
     <div>
       <BackgroundFixed />
-      <h2 className="first-title">Construisez très rapidement vos pages et le css grâce à ce Framework.</h2>
+      <h2 className="first-title">Build your pages and css very quickly thanks to this Framework.</h2>
       <img src={LogoFU} className="frameUse" alt="Logo de FrameUse" />
       <div className="container-card">
         <div className="card">
           <h3>Simple</h3>
           <hr className="separator-card" />
-          <p>Facile d'utilisation</p>
+          <p>Easy to use</p>
           <hr className="separator-card" />
-          <p>Beaucoup de propriétées CSS mises à disposition</p>
+          <p>Lots of CSS properties available</p>
           <hr className="separator-card" />
-          <button className="btn-card"><Link to ="/DocumentationEnFrancais">Voir plus</Link></button>
+          <button className="btn-card"><Link to ="/DocumentationInEnglish">See more</Link></button>
         </div>
         <div className="card">
-          <h3>Rapide</h3>
+          <h3>Fast</h3>
           <hr className="separator-card" />
-          <p>Juste besoin d'ajouter la classe css a votre élément HTML</p>
+          <p>Just need to add css class to your HTML element</p>
           <hr className="separator-card" />
-          <p>Fichier personnalisable</p>
+          <p>Customizable file</p>
           <hr className="separator-card" />
-          <button className="btn-card"><Link to ="/DocumentationEnFrancais">Voir plus</Link></button>
+          <button className="btn-card"><Link to ="/DocumentationInEnglish">See more</Link></button>
         </div>
         <div className="card">
           <h3>Responsive</h3>
           <hr className="separator-card" />
-          <p>100% Adaptatif</p>
+          <p>100% Adaptive</p>
           <hr className="separator-card" />
-          <p>Classe pour le responsive</p>
+          <p>Class for responsive</p>
           <hr className="separator-card" />
-          <button className="btn-card"><Link to ="/DocumentationEnFrancais">Voir plus</Link></button>
+          <button className="btn-card"><Link to ="/DocumentationInEnglish">See more</Link></button>
         </div>
       </div>
     </div>
