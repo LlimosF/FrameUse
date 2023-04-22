@@ -23,6 +23,8 @@ export default function FrenchPadding () {
         </ul>
         <h2 className="bloc-title">Explications</h2>
         <p>Donc nous avons crée un total de 400 classes, dont 5 " différents ", il y'a 80 classes pour chaque côtés, les classes vont de 1 à 80, donc de 1px jusqu'à 80px et ça pour chaque côtés, et aussi pour le padding général.</p>
+        <h2 className="bloc-title">Tous les padding</h2>
+        <li className="li-docu"></li>
         <h2 className="bloc-title">Utilisation</h2>
         <p>Pour pouvoir les utiliser, ajouter à votre element html une classe et écrivez celle que vous avez choisi.</p>
         <Link to ="/DocumentationEnFrancais" className="link-docu">Retour à la documentation générale</Link>

@@ -18,6 +18,9 @@ import FrenchBgColor from './Pages/French/FrenchBgColor/FrenchBgColor';
 import FrenchDisplay from './Pages/French/FrenchDisplay/FrenchDisplay';
 import FrenchPosition from './Pages/French/FrenchPosition/FrenchPosition';
 
+import EnglishPadding from './Pages/English/EnglishPadding/EnglishPadding';
+import EnglishMargin from './Pages/English/EnglishMargin/EnglishMargin';
+
 function App() {
   return (
     <div className="App">
@@ -36,6 +39,8 @@ function App() {
         <Route path="/BackgroundColorEnFrancais" element={<FrenchBgColor />} />
         <Route path="/DisplayEnFrancais" element={<FrenchDisplay />} />
         <Route path="/PositionEnFrancais" element={<FrenchPosition />} />
+        <Route path="/PaddingInEnglish" element={<EnglishPadding />} />
+        <Route path="/MarginInEnglish" element={<EnglishMargin />} />
       </Routes>
     </div>
   );
