@@ -1201,7 +1201,7 @@ body {
 /* DISPLAY */
 
 .AllDisplay {
-  display:block;
+  display: block;
   display: contents;
   display: flex;
   display: flexbox;
@@ -1348,7 +1348,7 @@ body {
 /* POSITION */
 
 .AllPosition {
-  position:absolute;
+  position: absolute;
   position: fixed;
   position: relative;
   position: static;

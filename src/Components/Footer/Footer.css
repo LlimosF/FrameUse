@@ -1,0 +1,13 @@
+.footer {
+  height: 80px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer > p {
+  padding-top: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+}

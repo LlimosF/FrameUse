@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import BackgroundFixed from "../../../Components/BackgroundFixed/BackgroundFixed";
 import FrenchHeader from "../../../Components/French/FrenchHeader/FrenchHeader";
 import "../../../Components/French/FrenchDocumentationContent/FrenchDocumentationContent.css";
+import Footer from "../../../Components/Footer/Footer";
 
 export default function FrenchBgColor () {
   return (
@@ -176,6 +177,7 @@ export default function FrenchBgColor () {
         <h2 className="bloc-title">Utilisation</h2>
         <p>Pour pouvoir les utiliser, ajouter à votre élément html une classe et écrivez celle que vous avez choisi.</p>
         <Link to ="/DocumentationEnFrancais" className="link-docu">Retour à la documentation générale</Link>
+        <Footer />
       </div>
     </div>
   )

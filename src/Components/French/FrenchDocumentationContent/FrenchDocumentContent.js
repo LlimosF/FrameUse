@@ -12,8 +12,8 @@ export default function FrenchDocumentationContent () {
           <Link to ="/MarginEnFrancais"><li>Margin</li></Link>
           <Link to ="/ColorEnFrancais"><li>Color</li></Link>
           <Link to ="/BackgroundColorEnFrancais"><li>BackgroundColor</li></Link>
-          <li>Display</li>
-          <li>Position</li>
+          <Link to ="/DisplayEnFrancais"><li>Display</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Position</li></Link>
         </ul>
       </nav>
     </div>
