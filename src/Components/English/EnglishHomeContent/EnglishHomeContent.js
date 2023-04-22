@@ -39,6 +39,5 @@ export default function EnglishHomeContent () {
         </div>
       </div>
     </div>
-    
   )
 }

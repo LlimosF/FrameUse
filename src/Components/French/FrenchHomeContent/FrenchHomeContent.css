@@ -29,15 +29,17 @@
   color: white;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 0px 0px 20px rgb(49, 49, 49);
+  -webkit-box-shadow: 0px 0px 37px 12px rgba(0,0,0,0.52); 
+  box-shadow: 0px 0px 37px 12px rgba(0,0,0,0.52);
 }
 
 .card > p {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
   margin: 0;
+  color: rgb(233, 233, 233);
 }
 
 .card > h3 {
@@ -52,18 +54,21 @@
   width: 80%;
   margin: 0;
   margin-left: 10%;
+  background-color: gray;
 }
 
 .btn-card {
   border: none;
   padding: 10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   width: 80%;
   border-radius: 5px;
-
+  text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
+  color: rgb(25, 113, 163);
+  font-weight: 700;
 }
