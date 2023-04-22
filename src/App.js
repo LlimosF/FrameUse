@@ -11,6 +11,11 @@ import EnglishDocumentation from './Pages/English/EnglishDocumentation/EnglishDo
 import EnglishExample from './Pages/English/EnglishExample/EnglishExample';
 import EnglishUse from './Pages/English/EnglishUse/EnglishUse';
 
+import FrenchPadding from './Pages/French/FrenchPadding/FrenchPadding';
+import FrenchMargin from './Pages/French/FrenchMargin/FrenchMargin';
+import FrenchColor from './Pages/French/FrenchColor/FrenchColor';
+import FrenchBgColor from './Pages/French/FrenchBgColor/FrenchBgColor';
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +28,10 @@ function App() {
         <Route path="/DocumentationInEnglish" element={<EnglishDocumentation />} />
         <Route path="/ExampleInEnglish" element={<EnglishExample />} />
         <Route path="/UseInEnglish" element={<EnglishUse />} />
+        <Route path="/PaddingEnFrancais" element={<FrenchPadding />} />
+        <Route path="/MarginEnFrancais" element={<FrenchMargin />} />
+        <Route path="/ColorEnFrancais" element={<FrenchColor />} />
+        <Route path="/BackgroundColorEnFrancais" element={<FrenchBgColor />} />
       </Routes>
     </div>
   );

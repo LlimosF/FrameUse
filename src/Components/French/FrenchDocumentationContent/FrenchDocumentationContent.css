@@ -1,6 +1,5 @@
 .docu-title {
   color: white;
-  margin-top: 150px;
   font-size: 30px;
   text-align: center;
   padding: 20px;
@@ -14,4 +13,30 @@ h3 {
   margin-left: 120px;
   color: white;
   padding: 20px;
+}
+
+.bloc-docu {
+  margin-top: 80px;
+  color: rgb(235, 235, 235);
+  padding: 40px;
+  text-align: center;
+}
+
+.li-docu {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: none;
+}
+
+.bloc-title {
+  font-size: 28px;
+  color: white;
+  padding: 30px;
+  color: rgb(25, 113, 163);
+  text-decoration: underline;
+}
+
+.ul-docu {
+  padding: 0;
 }
