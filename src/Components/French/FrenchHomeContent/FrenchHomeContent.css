@@ -15,7 +15,7 @@
 .frameUse {
   border-radius: 100%;
   width: 50%;
-  margin-left: 25%;
+  margin: 0;
   margin-top: 50px;
   margin-bottom: 50px;
   box-shadow: 2px 2px 20px rgb(58, 58, 58);
@@ -74,4 +74,26 @@ a {
   text-decoration: none;
   color: hwb(268 10% 36%);
   font-weight: 900;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .frameUse {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container-card {
+    display: grid;
+    grid-template-columns: [a] 1fr [c] 1fr [b] 1fr [d];
+  }
+
+  .frameUse {
+    width: 350px;
+  }
 }

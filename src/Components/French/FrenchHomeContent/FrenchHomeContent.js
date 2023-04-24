@@ -9,7 +9,9 @@ export default function FrenchHomeContent () {
     <div>
       <BackgroundFixed />
       <h2 className="first-title">Construisez très rapidement vos pages et le css grâce à ce Framework.</h2>
-      <img src={LogoFU} className="frameUse" alt="Logo de FrameUse" />
+      <div className="center">
+        <img src={LogoFU} className="frameUse" alt="Logo de FrameUse" />
+      </div>
       <div className="container-card">
         <div className="card">
           <h3>Simple</h3>
