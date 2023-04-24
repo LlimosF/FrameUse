@@ -1,29 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BackgroundFixed from "../../../Components/BackgroundFixed/BackgroundFixed";
-import FrenchHeader from "../../../Components/French/FrenchHeader/FrenchHeader";
-import "../../../Components/French/FrenchDocumentationContent/FrenchDocumentationContent.css";
+import EnglishHeader from "../../../Components/English/EnglishHeader/EnglishHeader";
 import Footer from "../../../Components/Footer/Footer";
+import "../../../Components/French/FrenchDocumentationContent/FrenchDocumentationContent.css";
 
-export default function FrenchBgColor () {
+export default function EnglishBgColor () {
   return (
     <div className="ColorBloc">
-      <FrenchHeader />
+      <EnglishHeader />
       <BackgroundFixed />
       <div className="bloc-docu">
-        <h2 className="bloc-title">Background-color</h2>
-        <p className="font">Pour la propriété css " background-color ", nous avons mit toutes les color mises à disposition.</p>
-        <h2 className="bloc-title">Liste d'exemple</h2>
+        <h2 className="bloc-title">Background-Color</h2>
+        <p className="font">For the "background-color" css property, we have made all the colors available.</p>
+        <h2 className="bloc-title">Example list</h2>
         <ul className="ul-docu">
-          <li className="li-docu">.bg-black ( background de couleur noir )</li>
-          <li className="li-docu">.bg-blue ( background de couleur bleu )</li>
-          <li className="li-docu">.bg-red ( background de couleur rouge )</li>
-          <li className="li-docu">.bg-crimson ( background de couleur crimson )</li>
-          <li className="li-docu">.bg-gray ( background de couleur grise )</li>
+          <li className="li-docu">.bg-black ( background color black )</li>
+          <li className="li-docu">.bg-blue ( background color blue )</li>
+          <li className="li-docu">.bg-red ( background color red )</li>
+          <li className="li-docu">.bg-crimson ( background color crimson )</li>
+          <li className="li-docu">.bg-gray ( background color gray )</li>
         </ul>
-        <h2 className="bloc-title">Explications</h2>
-        <p className="font">On vous a référencer toutes les couleurs disponibles en css.</p>
-        <h2 className="bloc-title">Toutes les couleurs</h2>
+        <h2 className="bloc-title">Explanations</h2>
+        <p className="font">We have referenced all the background colors available in css.</p>
+        <h2 className="bloc-title">All the background colors</h2>
         <ul className="ul-docu">
           <li className="li-docu">blue</li>
           <li className="li-docu">aliceblue</li>
@@ -174,10 +174,10 @@ export default function FrenchBgColor () {
           <li className="li-docu">yellow</li>
           <li className="li-docu">yellowgreen</li>
         </ul>
-        <h2 className="bloc-title">Utilisation</h2>
-        <p className="font">Pour pouvoir les utiliser, ajouter à votre élément html une classe et écrivez celle que vous avez choisi.</p>
+        <h2 className="bloc-title">Use</h2>
+        <p className="font">To be able to use them, add a class to your html element and write the one you have chosen.</p>
       </div>
-      <Link to ="/DocumentationEnFrancais" className="link-docu"><p className="link-to">Retour à la documentation générale</p></Link>
+      <Link to ="/DocumentationInEnglish" className="link-docu"><p className="link-to">Back to general documentation</p></Link>
       <Footer />
     </div>
   )

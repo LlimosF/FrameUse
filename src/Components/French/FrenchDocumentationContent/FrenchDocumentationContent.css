@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
 .docu-title {
   color: white;
   font-size: 30px;
@@ -27,16 +30,40 @@ h3 {
   padding-top: 10px;
   padding-bottom: 10px;
   text-transform: none;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .bloc-title {
   font-size: 28px;
   color: white;
-  padding: 30px;
-  color: rgb(25, 113, 163);
-  text-decoration: underline;
+  padding: 20px;
+  color: hwb(268 10% 36%);
+  text-shadow: 0px 0px 15px rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 .ul-docu {
   padding: 0;
+}
+
+.font {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.link-docu {
+  font-size: 20px;
+  text-shadow: 0px 0px 15px black;
+  text-align: center;
+}
+
+.link-to {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.link-to:hover {
+  color: white;
 }

@@ -20,6 +20,8 @@ import FrenchPosition from './Pages/French/FrenchPosition/FrenchPosition';
 
 import EnglishPadding from './Pages/English/EnglishPadding/EnglishPadding';
 import EnglishMargin from './Pages/English/EnglishMargin/EnglishMargin';
+import EnglishBgColor from './Pages/English/EnglishBgColor/EnglishBgColor';
+import EnglishColor from './Pages/English/EnglishColor/EnglishColor';
 
 function App() {
   return (
@@ -29,18 +31,23 @@ function App() {
         <Route path="/DocumentationEnFrancais" element={<FrenchDocumentation />} />
         <Route path="/ExemplesEnFrancais" element={<FrenchExemples />} />
         <Route path="/UtilisationEnFrancais" element={<FrenchUtilisation />} />
+
         <Route path="/HomeEng" element={<EnglishHome />} />
         <Route path="/DocumentationInEnglish" element={<EnglishDocumentation />} />
         <Route path="/ExampleInEnglish" element={<EnglishExample />} />
         <Route path="/UseInEnglish" element={<EnglishUse />} />
+
         <Route path="/PaddingEnFrancais" element={<FrenchPadding />} />
         <Route path="/MarginEnFrancais" element={<FrenchMargin />} />
         <Route path="/ColorEnFrancais" element={<FrenchColor />} />
         <Route path="/BackgroundColorEnFrancais" element={<FrenchBgColor />} />
         <Route path="/DisplayEnFrancais" element={<FrenchDisplay />} />
         <Route path="/PositionEnFrancais" element={<FrenchPosition />} />
+
         <Route path="/PaddingInEnglish" element={<EnglishPadding />} />
         <Route path="/MarginInEnglish" element={<EnglishMargin />} />
+        <Route path="/ColorInEnglish" element={<EnglishColor />} />
+        <Route path="/BackgroundColorInEnglish" element={<EnglishBgColor />} />
       </Routes>
     </div>
   );

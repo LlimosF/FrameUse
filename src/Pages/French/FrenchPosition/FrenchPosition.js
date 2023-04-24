@@ -12,7 +12,7 @@ export default function FrenchPosition () {
       <BackgroundFixed />
       <div className="bloc-docu">
         <h2 className="bloc-title">Position</h2>
-        <p>Pour la propriété css " position ", nous avons mit tous les display disponibles.</p>
+        <p className="font">Pour la propriété css " position ", nous avons mit tous les display disponibles.</p>
         <h2 className="bloc-title">Liste d'exemple</h2>
         <ul className="ul-docu">
           <li className="li-docu">.absolute ( position absolute )</li>
@@ -22,7 +22,7 @@ export default function FrenchPosition () {
           <li className="li-docu">.sticky ( position sticky )</li>
         </ul>
         <h2 className="bloc-title">Explications</h2>
-        <p>On vous a référencer tous les positions disponibles en css.</p>
+        <p className="font">On vous a référencer tous les positions disponibles en css.</p>
         <h2 className="bloc-title">Toutes les positions</h2>
         <ul className="ul-docu">
           <li className="li-docu">absolute</li>
@@ -37,10 +37,10 @@ export default function FrenchPosition () {
           <li className="li-docu">unset</li>
         </ul>
         <h2 className="bloc-title">Utilisation</h2>
-        <p>Pour pouvoir les utiliser, ajouter à votre élément html une classe et écrivez celle que vous avez choisi.</p>
-        <Link to ="/DocumentationEnFrancais" className="link-docu">Retour à la documentation générale</Link>
-        <Footer />
+        <p className="font">Pour pouvoir les utiliser, ajouter à votre élément html une classe et écrivez celle que vous avez choisi.</p>
       </div>
+      <Link to ="/DocumentationEnFrancais" className="link-docu"><p className="link-to">Retour à la documentation générale</p></Link>
+      <Footer />
     </div>
   )
 }
