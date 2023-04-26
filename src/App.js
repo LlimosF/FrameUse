@@ -22,6 +22,8 @@ import EnglishPadding from './Pages/English/EnglishPadding/EnglishPadding';
 import EnglishMargin from './Pages/English/EnglishMargin/EnglishMargin';
 import EnglishBgColor from './Pages/English/EnglishBgColor/EnglishBgColor';
 import EnglishColor from './Pages/English/EnglishColor/EnglishColor';
+import EnglishDisplay from './Pages/English/EnglishDisplay/EnglishDisplay';
+import EnglishPosition from './Pages/English/EnglishPosition/EnglishPosition';
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
         <Route path="/MarginInEnglish" element={<EnglishMargin />} />
         <Route path="/ColorInEnglish" element={<EnglishColor />} />
         <Route path="/BackgroundColorInEnglish" element={<EnglishBgColor />} />
+        <Route path="/DisplayInEnglish" element={<EnglishDisplay />} />
+        <Route path="/PositionInEnglish" element={<EnglishPosition />} />
       </Routes>
     </div>
   );

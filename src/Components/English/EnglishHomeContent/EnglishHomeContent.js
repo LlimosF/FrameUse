@@ -8,7 +8,9 @@ export default function EnglishHomeContent () {
     <div>
       <BackgroundFixed />
       <h2 className="first-title">Build your pages and css very quickly thanks to this Framework.</h2>
-      <img src={LogoFU} className="frameUse" alt="Logo de FrameUse" />
+      <div className="center">
+        <img src={LogoFU} className="frameUse" alt="Logo de FrameUse" />
+      </div>
       <div className="container-card">
         <div className="card">
           <h3>Simple</h3>

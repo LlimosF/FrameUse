@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BackgroundFixed from "../../../Components/BackgroundFixed/BackgroundFixed";
-import FrenchHeader from "../../../Components/French/FrenchHeader/FrenchHeader";
+import EnglishHeader from "../../../Components/English/EnglishHeader/EnglishHeader";
 import Footer from "../../../Components/Footer/Footer";
 import "../../../Components/French/FrenchDocumentationContent/FrenchDocumentationContent.css";
 
-export default function FrenchDisplay () {
+export default function EnglishDisplay () {
   return (
     <div className="ColorBloc">
-      <FrenchHeader />
+      <EnglishHeader />
       <BackgroundFixed />
       <div className="bloc-docu">
         <h2 className="bloc-title">Display</h2>
-        <p className="font">Pour la propriété css " display ", nous avons mit tous les display disponibles.</p>
-        <h2 className="bloc-title">Liste d'exemple</h2>
+        <p className="font">For the css "display" property, we have set all available displays.</p>
+        <h2 className="bloc-title">Example list</h2>
         <ul className="ul-docu">
           <li className="li-docu">.flex ( display flex )</li>
           <li className="li-docu">.grid ( display grid )</li>
@@ -21,9 +21,9 @@ export default function FrenchDisplay () {
           <li className="li-docu">.block ( display block )</li>
           <li className="li-docu">.none ( display none )</li>
         </ul>
-        <h2 className="bloc-title">Explications</h2>
-        <p className="font">On vous a référencer tous les display disponibles en css.</p>
-        <h2 className="bloc-title">Tous les display</h2>
+        <h2 className="bloc-title">Explanations</h2>
+        <p className="font">We have referenced all the displays available in css.</p>
+        <h2 className="bloc-title">All display</h2>
         <ul className="ul-docu">
           <li className="li-docu">block</li>
           <li className="li-docu">contents</li>
@@ -54,10 +54,10 @@ export default function FrenchDisplay () {
           <li className="li-docu">table-row</li>
           <li className="li-docu">table-row-group</li>
         </ul>
-        <h2 className="bloc-title">Utilisation</h2>
-        <p className="font">Pour pouvoir les utiliser, ajouter à votre élément html une classe et écrivez celle que vous avez choisi.</p>
+        <h2 className="bloc-title">Use</h2>
+        <p className="font">To be able to use them, add a class to your html element and write the one you have chosen.</p>
       </div>
-      <Link to ="/DocumentationEnFrancais" className="link-docu"><p className="link-to">Retour à la documentation générale</p></Link>
+      <Link to ="/DocumentationInEnglish" className="link-docu"><p className="link-to">Back to general documentation</p></Link>
       <Footer />
     </div>
   )
