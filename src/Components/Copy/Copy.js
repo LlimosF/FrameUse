@@ -4401,7 +4401,7 @@ function CopyButton() {
   }
 
   return (
-    <div>
+    <div className="exemple-btn">
       <button onClick={copyToClipboard} className="btn5">
         {copied ? "Copié!" : "Copier le CSS"}
       </button>

@@ -2,7 +2,8 @@ import React from "react";
 import "../FrenchHomeContent/FrenchHomeContent.css";
 import BackgroundFixed from "../../BackgroundFixed/BackgroundFixed";
 import { Link } from "react-router-dom";
-import LogoFU from "../../../media/FrameUse.png"
+import LogoFU from "../../../media/FrameUse.png";
+import screen1 from "../../../media/screen1.png";
 
 export default function FrenchHomeContent () {
   return (
@@ -39,6 +40,22 @@ export default function FrenchHomeContent () {
           <p>Classe pour le responsive</p>
           <hr className="separator-card" />
           <button className="btn-card"><Link to ="/DocumentationEnFrancais">Voir plus</Link></button>
+        </div>
+      </div>
+      <h4 className="frameuse-title">FrameUse</h4>
+      <div className="about-fu">
+        <p>FrameUse est un framework css qui à pour but d'aider les développeurs web / web mobile a concevoir leurs sites internet rapidement et efficacement. Notre framework comporte énormément de classe 
+          css pour la personnalisation de élément html.
+          Toutes les classes css sont répertorié dans un fichier css classique, nous avons mit en place des classes css pour la plus part des éléments css disposition sur nos IDE préféré.
+          Il y'a des classes pour mettre un display, changer la position d'un élément, changer la taille de police, couleur de texte et j'en passe. Tout est renseigné dans la 
+          documentation officielle disponible directement sur notre site web.
+        </p>
+        <div className="screen-container">
+          <img src={screen1} className="screen"/>
+          <img src={screen1} className="screen"/>
+          <img src={screen1} className="screen"/>
+          <img src={screen1} className="screen"/>
+          <img src={screen1} className="screen"/>
         </div>
       </div>
     </div>
