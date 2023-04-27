@@ -12,27 +12,27 @@ export default function EnglishExempleContent () {
       <p className="text">We have created elements in pre-personalized html, to allow you to have some personalized elements very quickly. All these elements are responsive and will adapt to all types of screens.</p>
       <h3 className="title-exemple">Button</h3>
       <div className="exemple">
-        <div className="exemple1">
+        <div className="exemple-btn">
           <button className="btn1">Button 1</button>
           <p className="text">.btn1</p>
         </div>
-        <div className="exemple2">
+        <div className="exemple-btn">
           <button className="btn2">Button 2</button>
           <p className="text">.btn2</p>
         </div>
-        <div className="exemple3">
+        <div className="exemple-btn">
           <button className="btn3">Button 3</button>
           <p className="text">.btn3</p>
         </div>
-        <div className="exemple4">
+        <div className="exemple-btn">
           <button className="btn4">Button 4</button>
           <p className="text">.btn4</p>
         </div>
-        <div className="exemple5">
+        <div className="exemple-btn">
           <button className="btn5">Button 5</button>
           <p className="text">.btn5</p>
         </div>
-        <div className="exemple6">
+        <div className="exemple-btn">
           <button className="btn6">Button 6</button>
           <p className="text">.btn6</p>
         </div>

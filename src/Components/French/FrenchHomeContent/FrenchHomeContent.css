@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 
+* {
+  font-family: 'Basic', sans-serif;
+}
+
 .first-title {
   text-align: center;
   padding: 20px;
@@ -93,6 +97,18 @@ a {
   box-shadow: 0px 0px 15px black;
 }
 
+.screen1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.screen1 > p {
+  color: white;
+  justify-self: center;
+  align-self: center;
+  padding: 40px;
+}
+
 .frameuse-title {
   color: white;
   text-align: center;
@@ -123,5 +139,15 @@ a {
 
   .frameUse {
     width: 350px;
+  }
+
+  .screen {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .screen1 {
+    display: grid;
+    grid-template-columns: [] 1fr [] 1fr [];
   }
 }

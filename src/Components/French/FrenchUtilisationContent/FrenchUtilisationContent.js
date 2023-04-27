@@ -8,19 +8,19 @@ export default function FrenchUtilisationContent () {
   return (
     <div>
       <h2 className="title-use">Guide sur l'utilisation du Framework</h2>
-      <div className="card-container">
-        <div className="card">
+      <div className="card-container1">
+        <div className="card1">
             <h3>Copier / coller</h3>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>100% sécurisé</p>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>Modifiable</p>
           </div>
-          <div className="card">
+          <div className="card1">
             <h3>Téléchargement</h3>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>Téléchargement sécurisé</p>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>Modifiable</p>
           </div>
         </div>

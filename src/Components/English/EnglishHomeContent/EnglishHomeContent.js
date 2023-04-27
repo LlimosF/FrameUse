@@ -1,7 +1,12 @@
 import React from "react";
 import BackgroundFixed from "../../BackgroundFixed/BackgroundFixed";
 import { Link } from "react-router-dom";
+
 import LogoFU from "../../../media/FrameUse.png";
+import screen1 from "../../../media/screen1.png";
+import screen2 from "../../../media/screen2.png";
+import screen3 from "../../../media/screen3.png";
+import screen4 from "../../../media/screen4.png";
 
 export default function EnglishHomeContent () {
   return (
@@ -39,7 +44,46 @@ export default function EnglishHomeContent () {
           <hr className="separator-card" />
           <button className="btn-card"><Link to ="/DocumentationInEnglish">See more</Link></button>
         </div>
-      </div>
+        </div>
+        <h4 className="frameuse-title">FrameUse</h4>
+        <div className="about-fu">
+          <p>
+            FrameUse is a css framework that aims to help web / mobile web developers design their websites quickly and efficiently. Our framework has a lot of class
+              css for html element customization.
+              All css classes are listed in a classic css file, we have implemented css classes for most of the css elements available on our favorite IDE.
+              There are classes to put a display, change the position of an element, change the font size, text color and so on. Everything is filled in the
+              official documentation available directly on our website.
+          </p>
+          <div className="screen-container">
+          <div className="screen1">
+              <img src={screen1} className="screen"/>
+              <p>
+                For this example, we put a display flex and background-color gray on our parent, on the title, a font-size of 30px, a padding of 20px and a red color.
+                For the text, we put a margin of 20px, a font-size of 18px, and a maganta color.
+              </p>
+            </div>
+            <div className="screen1">
+              <img src={screen2} className="screen"/>
+              <p>
+                For this example, we have on the div, put a display grid with 3 columns. Inside, 3 images which all have a border-radius of 15px. Image 1 and 2 have size
+                of 60% relative to the parent, image 2 has a size of 60%.
+              </p>
+            </div>
+            <div className="screen1">
+              <img src={screen3} className="screen"/>
+              <p>
+                For this example, we have created a button template, which will be black on a white background, with a slight border-radius.
+              </p>
+            </div>
+            <div className="screen1">
+              <img src={screen4} className="screen"/>
+              <p>
+                Por this example, it's an image that will have a border-radius of 100% so it will be round. It also has a 15px box-shadow of blur in black, and it will be centered
+                in the middle of the screen regardless of its size.
+              </p>
+            </div>
+          </div>
+        </div>
     </div>
   )
 }

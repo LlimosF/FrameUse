@@ -2,24 +2,25 @@ import React from "react";
 import "../../../Pages/French/FrenchUtilisation/FrenchUtilisation.css";
 import DownloadButton from "../../../Components/Download/Download";
 import CopyButton from "../../Copy/Copy";
+import "../../French/FrenchUtilisationContent/FrenchUtilisationContent.css";
 
 export default function EnglishUseContent () {
   return (
     <div>
       <h2 className="title-use">Guide to using the Framework</h2>
-      <div className="card-container">
-        <div className="card">
+      <div className="card-container1">
+        <div className="card1">
             <h3>Copy / paste</h3>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>100% secure</p>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>Editable</p>
           </div>
-          <div className="card">
+          <div className="card1">
             <h3>Download</h3>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>Secure download</p>
-            <hr className="separator-card" />
+            <hr className="separator-card1" />
             <p>Editable</p>
           </div>
         </div>

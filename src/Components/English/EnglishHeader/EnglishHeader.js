@@ -7,7 +7,7 @@ export default function EnglishHeader () {
   return (
     <div className="header">
       <nav className="navbar container">
-        <Link to="/"><h1>FrameUse</h1></Link>
+        <Link to="/HomeEng"><h1>FrameUse</h1></Link>
         <input type="checkbox" id="toggler" />
         <label for="toggler"><img src={Burger} className="burgerLogo"></img></label>
         <div className="menu">
