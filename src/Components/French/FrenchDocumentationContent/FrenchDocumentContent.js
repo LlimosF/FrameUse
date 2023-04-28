@@ -14,6 +14,14 @@ export default function FrenchDocumentationContent () {
           <Link to ="/BackgroundColorEnFrancais"><li>BackgroundColor</li></Link>
           <Link to ="/DisplayEnFrancais"><li>Display</li></Link>
           <Link to ="/PositionEnFrancais"><li>Position</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Text-align</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Font-weight</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Justify-content</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Justify-self</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Justify-items</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Text-transform</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Text-decoration</li></Link>
+          <Link to ="/PositionEnFrancais"><li>Responsive grid</li></Link>
         </ul>
       </nav>
     </div>

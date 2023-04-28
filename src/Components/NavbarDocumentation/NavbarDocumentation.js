@@ -12,6 +12,14 @@ export default function NavbarDocumentation () {
       <Link to ="/BackgroundEnFrancais"><li className="li-docu">Background</li></Link>
       <Link to ="/DisplayEnFrancais"><li className="li-docu">Display</li></Link>
       <Link to ="/PositionEnFrancais"><li className="li-docu">Position</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Text-align</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Font-weight</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Justify-content</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Justify-self</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Justify-items</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Text-transform</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Text-decoration</li></Link>
+      <Link to ="/PositionEnFrancais"><li className="li-docu">Responsive grid</li></Link>
     </div>
   )
 }
