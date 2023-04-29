@@ -17,6 +17,14 @@ import FrenchColor from './Pages/French/FrenchColor/FrenchColor';
 import FrenchBgColor from './Pages/French/FrenchBgColor/FrenchBgColor';
 import FrenchDisplay from './Pages/French/FrenchDisplay/FrenchDisplay';
 import FrenchPosition from './Pages/French/FrenchPosition/FrenchPosition';
+import FrenchFontWeight from './Pages/French/FrenchFontWeight/FrenchFontWeight';
+import FrenchJustifySelf from './Pages/French/FrenchJustifySelf/FrenchJustifySelf';
+import FrenchJustifyItems from './Pages/French/FrenchJustifyItems/FrenchJustifyItems';
+import FrenchTextDecoration from './Pages/French/FrenchTextDecoration/FrenchTextDecoration';
+import FrenchTextAlign from './Pages/French/FrenchTextAlign/FrenchTextAlign';
+import FrenchJustifyContent from './Pages/French/FrenchJustifyContent/FrenchJustifyContent';
+import FrenchTextTransform from './Pages/French/FrenchTextTransform/FrenchTextTransform';
+import FrenchGrid from './Pages/French/FrenchGrid/FrenchGrid';
 
 import EnglishPadding from './Pages/English/EnglishPadding/EnglishPadding';
 import EnglishMargin from './Pages/English/EnglishMargin/EnglishMargin';
@@ -45,6 +53,14 @@ function App() {
         <Route path="/BackgroundColorEnFrancais" element={<FrenchBgColor />} />
         <Route path="/DisplayEnFrancais" element={<FrenchDisplay />} />
         <Route path="/PositionEnFrancais" element={<FrenchPosition />} />
+        <Route path="/FontWeightEnFrancais" element={<FrenchFontWeight />} />
+        <Route path="/JustifyContentEnFrancais" element={<FrenchJustifyContent />} />
+        <Route path="/JustifySelfEnFrancais" element={<FrenchJustifySelf />} />
+        <Route path="/JustifyItemsEnFrancais" element={<FrenchJustifyItems />} />
+        <Route path="/TextTransformEnFrancais" element={<FrenchTextTransform />} />
+        <Route path="/TextDecorationEnFrancais" element={<FrenchTextDecoration />} />
+        <Route path="/TextAlignEnFrancais" element={<FrenchTextAlign />} />
+        <Route path="/GridEnFrancais" element={<FrenchGrid />} />
 
         <Route path="/PaddingInEnglish" element={<EnglishPadding />} />
         <Route path="/MarginInEnglish" element={<EnglishMargin />} />

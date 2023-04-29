@@ -67,3 +67,25 @@ h3 {
 .link-to:hover {
   color: white;
 }
+
+.pink {
+  color: pink;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.blue {
+  color: rgb(49, 132, 160);
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+@media screen and (min-width: 1900px)
