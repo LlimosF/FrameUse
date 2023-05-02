@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BackgroundFixed from "../../../Components/BackgroundFixed/BackgroundFixed";
-import FrenchHeader from "../../../Components/French/FrenchHeader/FrenchHeader";
+import EnglishHeader from "../../../Components/English/EnglishHeader/EnglishHeader";
 import Footer from "../../../Components/Footer/Footer";
 import "../../../Components/French/FrenchDocumentationContent/FrenchDocumentationContent.css";
 
-export default function FrenchTextAlign () {
+export default function EnglishTextAlign () {
   return (
     <div className="ColorBloc">
-      <FrenchHeader />
+      <EnglishHeader />
       <BackgroundFixed />
       <div className="bloc-docu">
         <h2 className="bloc-title">Text-align</h2>
-        <p className="font">Pour la propriété css " text-align ", nous avons mit toutes les text-align disponibles.</p>
-        <h2 className="bloc-title">Liste d'exemple</h2>
+        <p className="font">For the "text-align" css property, we set all available text-align.</p>
+        <h2 className="bloc-title">Example list</h2>
         <ul className="ul-docu">
           <li className="li-docu">.text-align-center ( text-align center )</li>
           <li className="li-docu">.text-align-end ( text-align end )</li>
@@ -21,9 +21,9 @@ export default function FrenchTextAlign () {
           <li className="li-docu">.text-align-left ( text-align left )</li>
           <li className="li-docu">.text-align-right ( text-align right )</li>
         </ul>
-        <h2 className="bloc-title">Explications</h2>
-        <p className="font">On vous a référencer tous les text-align disponibles en css.</p>
-        <h2 className="bloc-title">Tous les text-align</h2>
+        <h2 className="bloc-title">Explanations</h2>
+        <p className="font">We have referenced all the text-align available in css.</p>
+        <h2 className="bloc-title">All text-align</h2>
         <ul className="ul-docu">
           <li className="li-docu">.text-align-center</li>
           <li className="li-docu">.text-align-end</li>
@@ -35,10 +35,10 @@ export default function FrenchTextAlign () {
           <li className="li-docu">.text-align-initial</li>
           <li className="li-docu">.text-align-unset</li>
         </ul>
-        <h2 className="bloc-title">Utilisation</h2>
-        <p className="font">Pour pouvoir les utiliser, ajouter à votre élément html une classe et écrivez celle que vous avez choisi.</p>
+        <h2 className="bloc-title">Use</h2>
+        <p className="font">To be able to use them, add a class to your html element and write the one you have chosen.</p>
       </div>
-      <Link to ="/DocumentationEnFrancais" className="link-docu"><p className="link-to">Retour à la documentation générale</p></Link>
+      <Link to ="/DocumentationInEnglish" className="link-docu"><p className="link-to">Back to general documentation</p></Link>
       <Footer />
     </div>
   )

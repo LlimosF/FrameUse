@@ -6,6 +6,7 @@
   font-size: 30px;
   text-align: center;
   padding: 20px;
+  margin-top: 150px;
 }
 
 h3 {
@@ -27,25 +28,44 @@ h3 {
 
 .li-docu {
   list-style: none;
-  padding-top: 10px;
   padding-bottom: 10px;
   text-transform: none;
   font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.li-docu-link {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  padding: 3px;
+}
+
+.li-docu-link:hover {
+  text-decoration: underline;
+  color: red;
 }
 
 .bloc-title {
   font-size: 28px;
   color: white;
   padding: 20px;
-  color: hwb(268 10% 36%);
+  color: hwb(0 7% 15%);
   text-shadow: 0px 0px 15px rgb(0, 0, 0);
   text-transform: uppercase;
   margin: 0;
   font-family: 'Oswald', sans-serif;
 }
 
+.docu-text-info {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: 400;
+}
+
 .ul-docu {
-  padding: 0;
+  padding: 0;  display: grid;
+  justify-self: center;
 }
 
 .font {
@@ -88,4 +108,13 @@ h3 {
   color: orange;
 }
 
-@media screen and (min-width: 1900px)
+@media screen and (min-width: 600px) {
+  .docu-text-info {
+    font-size: 24px;
+    padding: 40px;
+  }
+
+  .ul-docu {
+    font-size: 20px;
+  }
+}

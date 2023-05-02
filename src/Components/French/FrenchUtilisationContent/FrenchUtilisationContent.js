@@ -6,7 +6,7 @@ import "../FrenchUtilisationContent/FrenchUtilisationContent.css";
 
 export default function FrenchUtilisationContent () {
   return (
-    <div>
+    <div className="use-container">
       <h2 className="title-use">Guide sur l'utilisation du Framework</h2>
       <div className="card-container1">
         <div className="card1">

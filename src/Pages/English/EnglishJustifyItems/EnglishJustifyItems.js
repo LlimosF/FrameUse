@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BackgroundFixed from "../../../Components/BackgroundFixed/BackgroundFixed";
-import FrenchHeader from "../../../Components/French/FrenchHeader/FrenchHeader";
+import EnglishHeader from "../../../Components/English/EnglishHeader/EnglishHeader";
 import Footer from "../../../Components/Footer/Footer";
 import "../../../Components/French/FrenchDocumentationContent/FrenchDocumentationContent.css";
 
-export default function FrenchJustifyItems () {
+export default function EnglishJustifyItems () {
   return (
     <div className="ColorBloc">
-      <FrenchHeader />
+      <EnglishHeader />
       <BackgroundFixed />
       <div className="bloc-docu">
         <h2 className="bloc-title">Justify-items</h2>
-        <p className="font">Pour la propriété css " justify-items ", nous avons mit tous les justify-items disponibles.</p>
-        <h2 className="bloc-title">Liste d'exemple</h2>
+        <p className="font">For the "justify-items" css property, we have set all the justify-items available.</p>
+        <h2 className="bloc-title">Example list</h2>
         <ul className="ul-docu">
           <li className="li-docu">.justify-items-auto ( justify items auto )</li>
           <li className="li-docu">.justify-items-center ( justify items center )</li>
@@ -21,9 +21,9 @@ export default function FrenchJustifyItems () {
           <li className="li-docu">.justify-items-left ( justify items left )</li>
           <li className="li-docu">.justify-items-normal ( justify items normal )</li>
         </ul>
-        <h2 className="bloc-title">Explications</h2>
-        <p className="font">On vous a référencer tous les justify-items disponibles en css.</p>
-        <h2 className="bloc-title">Tous les justify-items</h2>
+        <h2 className="bloc-title">Explanations</h2>
+        <p className="font">We have referenced all the justify-items available in css.</p>
+        <h2 className="bloc-title">All justify-items</h2>
         <ul className="ul-docu">
           <li className="li-docu">.justify-items-auto</li>
           <li className="li-docu">.justify-items-baseline</li>
@@ -46,10 +46,10 @@ export default function FrenchJustifyItems () {
           <li className="li-docu">.justify-items-initial</li>
           <li className="li-docu">.justify-items-unset</li>
         </ul>
-        <h2 className="bloc-title">Utilisation</h2>
-        <p className="font">Pour pouvoir les utiliser, ajouter à votre élément html une classe et écrivez celle que vous avez choisi.</p>
+        <h2 className="bloc-title">Use</h2>
+        <p className="font">To be able to use them, add a class to your html element and write the one you have chosen.</p>
       </div>
-      <Link to ="/DocumentationEnFrancais" className="link-docu"><p className="link-to">Retour à la documentation générale</p></Link>
+      <Link to ="/DocumentationInEnglish" className="link-docu"><p className="link-to">Back to general documentation</p></Link>
       <Footer />
     </div>
   )

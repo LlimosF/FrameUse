@@ -2,7 +2,7 @@
   width: 80%;
   margin-left: 10%;
   border-radius: 10px;
-  background-color: hwb(268 10% 36% / 0.548);
+  background-color: hwb(0 7% 19% / 0.548);
   text-align: center;
   color: white;
   margin-top: 50px;
@@ -103,5 +103,12 @@ a {
   .use2 {
     padding-left: 80px;
     padding-right: 80px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .use-container {
+    width: 80%;
+    margin-left: 10%;
   }
 }

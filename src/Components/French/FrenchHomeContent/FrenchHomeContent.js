@@ -7,10 +7,11 @@ import screen1 from "../../../media/screen1.png";
 import screen2 from "../../../media/screen2.png";
 import screen3 from "../../../media/screen3.png";
 import screen4 from "../../../media/screen4.png";
+import Florian from "../../../media/florian.jpg";
 
 export default function FrenchHomeContent () {
   return (
-    <div>
+    <div className="home">
       <BackgroundFixed />
       <h2 className="first-title">Construisez très rapidement vos pages et le css grâce à ce Framework.</h2>
       <div className="center">
@@ -53,6 +54,7 @@ export default function FrenchHomeContent () {
           Il y'a des classes pour mettre un display, changer la position d'un élément, changer la taille de police, couleur de texte et j'en passe. Tout est renseigné dans la 
           documentation officielle disponible directement sur notre site web.
         </p>
+        <h4 className="frameuse-title">Exemples</h4>
         <div className="screen-container">
         <div className="screen1">
             <img src={screen1} className="screen"/>
@@ -77,6 +79,18 @@ export default function FrenchHomeContent () {
             <p>Pour cet exemple, c'est une image qui va avoir un border-radius de 100% donc elle sera ronde. Elle possède également un box-shadow de 15px de flou en noir, et elle sera centré 
               au milieu de l'écran peut importe la taille de celui ci.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="creator">
+        <h4 className="frameuse-title">Createur</h4>
+        <div className="creator-container">
+          <div className="center">
+            <img src={Florian} alt="" className="creator-pic" />
+          </div>
+          <p className="creator-name">Florian Llimos</p>
+          <div className="center">
+            <a href="https://florianllimos.netlify.app/" target="_blank" className="link-creator">Site personnel</a>
           </div>
         </div>
       </div>

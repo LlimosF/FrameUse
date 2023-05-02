@@ -19,7 +19,7 @@ export default function DownloadButton () {
 
   return (
     <div className="exemple-btn">
-      <button onClick={handleDownload} className="btn5">Download</button>
+      <button onClick={handleDownload} className="btn3">Download</button>
     </div>
   )
 }

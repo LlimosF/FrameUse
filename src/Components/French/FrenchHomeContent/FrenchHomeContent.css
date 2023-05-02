@@ -13,7 +13,7 @@
   font-family: 'Basic', sans-serif;
   font-size: 30px;
   margin-top: 150px;
-  text-shadow: 0px 0px 20px rgb(56, 56, 56);
+  text-shadow: 0px 0px 20px rgb(218, 13, 13);
 }
 
 .frameUse {
@@ -29,7 +29,7 @@
   width: 80%;
   margin-left: 10%;
   border-radius: 10px;
-  background-color: hwb(268 10% 36% / 0.548);
+  background-color: hwb(0 9% 25% / 0.548);
   text-align: center;
   color: white;
   margin-top: 50px;
@@ -72,11 +72,12 @@
   width: 80%;
   border-radius: 5px;
   text-transform: uppercase;
+  color: red;
 }
 
 a {
   text-decoration: none;
-  color: hwb(268 10% 36%);
+  color: hwb(0 10% 14%);
   font-weight: 900;
 }
 
@@ -97,16 +98,14 @@ a {
   box-shadow: 0px 0px 15px black;
 }
 
-.screen1 {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
 .screen1 > p {
   color: white;
   justify-self: center;
   align-self: center;
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .frameuse-title {
@@ -115,7 +114,7 @@ a {
   font-family: 'Basic', sans-serif;
   font-size: 30px;
   padding: 20px;
-  text-shadow: 0px 0px 20px rgb(56, 56, 56);
+  text-shadow: 0px 0px 20px rgb(219, 13, 13);
 }
 
 .about-fu > p {
@@ -125,9 +124,26 @@ a {
   padding-right: 50px;
 }
 
+.creator-pic {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.creator-name {
+  color: white;
+  text-align: center;
+  font-family: 'Basic', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.link-creator {
+  color: white;
+}
+
 @media screen and (min-width: 600px) {
   .frameUse {
-    width: 300px;
+    width: 240px;
   }
 }
 
@@ -138,7 +154,7 @@ a {
   }
 
   .frameUse {
-    width: 350px;
+    width: 300px;
   }
 
   .screen {
@@ -147,7 +163,35 @@ a {
   }
 
   .screen1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .screen1 > p {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .screen-container {
     display: grid;
     grid-template-columns: [] 1fr [] 1fr [];
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about-fu > p {
+    font-size: 18px;
+  }
+
+  .screen1 > p {
+  font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .home {
+    width: 80%;
+    margin-left: 10%;
   }
 }

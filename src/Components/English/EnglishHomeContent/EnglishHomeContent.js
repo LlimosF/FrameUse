@@ -1,16 +1,18 @@
 import React from "react";
 import BackgroundFixed from "../../BackgroundFixed/BackgroundFixed";
 import { Link } from "react-router-dom";
+import "../../French/FrenchHomeContent/FrenchHomeContent.css";
 
 import LogoFU from "../../../media/FrameUse.png";
 import screen1 from "../../../media/screen1.png";
 import screen2 from "../../../media/screen2.png";
 import screen3 from "../../../media/screen3.png";
 import screen4 from "../../../media/screen4.png";
+import Florian from "../../../media/florian.jpg";
 
 export default function EnglishHomeContent () {
   return (
-    <div>
+    <div className="home">
       <BackgroundFixed />
       <h2 className="first-title">Build your pages and css very quickly thanks to this Framework.</h2>
       <div className="center">
@@ -84,6 +86,18 @@ export default function EnglishHomeContent () {
             </div>
           </div>
         </div>
+        <div className="creator">
+        <h4 className="frameuse-title">Creator</h4>
+        <div className="creator-container">
+          <div className="center">
+            <img src={Florian} alt="" className="creator-pic" />
+          </div>
+          <p className="creator-name">Florian Llimos</p>
+          <div className="center">
+            <a href="https://florianllimos.netlify.app/" target="_blank" className="link-creator">Personnal web site</a>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
