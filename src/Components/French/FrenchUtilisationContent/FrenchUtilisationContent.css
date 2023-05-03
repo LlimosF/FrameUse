@@ -2,7 +2,7 @@
   width: 80%;
   margin-left: 10%;
   border-radius: 10px;
-  background-color: hwb(0 7% 19% / 0.548);
+  background-color: hwb(182 9% 27% / 0.644);
   text-align: center;
   color: white;
   margin-top: 50px;
@@ -49,8 +49,17 @@
 
 a {
   text-decoration: none;
-  color: hwb(268 10% 36%);
+  color: hwb(182 9% 27% / 0.644);
   font-weight: 900;
+}
+
+.use-text-try {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .center {

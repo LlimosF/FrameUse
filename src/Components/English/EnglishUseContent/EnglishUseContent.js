@@ -41,7 +41,8 @@ export default function EnglishUseContent () {
             </p>
           <DownloadButton />
           </div>
-        </div>  
+        </div>
+        <p className="use-text-try">Download the file, copy the CSS and paste the CSS into the downloaded file. Link the CSS file to your HTML file and you're ready to go!</p>
     </div>
   )
 }

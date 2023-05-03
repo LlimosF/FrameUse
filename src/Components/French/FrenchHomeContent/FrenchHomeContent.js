@@ -63,21 +63,8 @@ export default function FrenchHomeContent () {
             </p>
           </div>
           <div className="screen1">
-            <img src={screen2} className="screen"/>
-            <p>
-              Pour cet exemple, nous avons sur la div, mit un display grid avec 3 colonnes. Dedans, 3 images qui possèdent toutes un border-radius de 15px. L'image 1 et 2 ont une taille 
-              de 60% par rapport au parent, l'image 2 a une taille de 60%.
-            </p>
-          </div>
-          <div className="screen1">
             <img src={screen3} className="screen"/>
             <p>Pour cet exemple, nous avons crée une template de boutton, qui sera de couleur noir sur fond blanc, avec un léger border-radius.
-            </p>
-          </div>
-          <div className="screen1">
-            <img src={screen4} className="screen"/>
-            <p>Pour cet exemple, c'est une image qui va avoir un border-radius de 100% donc elle sera ronde. Elle possède également un box-shadow de 15px de flou en noir, et elle sera centré 
-              au milieu de l'écran peut importe la taille de celui ci.
             </p>
           </div>
         </div>

@@ -65,23 +65,9 @@ export default function EnglishHomeContent () {
               </p>
             </div>
             <div className="screen1">
-              <img src={screen2} className="screen"/>
-              <p>
-                For this example, we have on the div, put a display grid with 3 columns. Inside, 3 images which all have a border-radius of 15px. Image 1 and 2 have size
-                of 60% relative to the parent, image 2 has a size of 60%.
-              </p>
-            </div>
-            <div className="screen1">
               <img src={screen3} className="screen"/>
               <p>
                 For this example, we have created a button template, which will be black on a white background, with a slight border-radius.
-              </p>
-            </div>
-            <div className="screen1">
-              <img src={screen4} className="screen"/>
-              <p>
-                Por this example, it's an image that will have a border-radius of 100% so it will be round. It also has a 15px box-shadow of blur in black, and it will be centered
-                in the middle of the screen regardless of its size.
               </p>
             </div>
           </div>
